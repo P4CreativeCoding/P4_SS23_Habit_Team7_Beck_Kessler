@@ -17,7 +17,7 @@ function App() {
           <Route path="/" element={<HomeScreen />} />
           <Route path="/pulsAudioÜbersicht" element={<PulsAudioÜbersicht />} />
           <Route path="/medikamentenÜbersicht" element={<MedikamentenÜbersicht />} />
-          <Route path="/kalender.js" element={<Kalender.js />} />
+          <Route path="/kalender" element={<Kalender />} />
           <Route path="/tagebuch" element={<Tagebuch />} />
         </Routes>
       </BrowserRouter>
