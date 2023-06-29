@@ -1,5 +1,7 @@
-import React from "react";
-import { useState } from "react";
+import { useState } from "react"; 
 
+const HomeScreen = () => {
+   
+  };
 
-// Das hier wird der so genannte "HomeScreen". Wenn das Tagebuch geöffnet wurde, soll dieser Screen aufploppen. 
+export default HomeScreen;
