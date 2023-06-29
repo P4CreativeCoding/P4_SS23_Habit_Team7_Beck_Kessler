@@ -1,2 +1,2 @@
-# P4_SS23_MedBuddy_Team7_Beck_Kessler
+# P4_SS23_Habit_Team7_Beck_Kessler
  
