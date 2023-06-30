@@ -7,6 +7,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
+import Header from "../Header";
 
 const PulsAudioÜbersicht = () => {
 
@@ -30,6 +31,7 @@ const PulsAudioÜbersicht = () => {
     
     return (
       <div>
+        <Header backLink="/" />
         <h1>BPM: {bpm}</h1>
       </div>
     );
