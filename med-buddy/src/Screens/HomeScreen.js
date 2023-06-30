@@ -1,9 +1,20 @@
-import { useState } from "react"; 
+import { Link } from "react-router-dom";
 
 const HomeScreen = () => {
     return (
       <div>
-            <p>Profil</p>
+        <Link to="/tagebuch">
+          <p>Tagebuch</p>
+        </Link>
+        <Link to="/kalender">
+          <p>Kalender</p>
+        </Link>
+        <Link to="/medikamentenÜbersicht">
+          <p>MedikamentenÜbersicht</p>
+        </Link>
+        <Link to="/pulsAudioÜbersicht">
+          <p>PulsAudioAnsicht</p>
+        </Link>
       </div>
     );
   };
