@@ -7,6 +7,9 @@ const Kalender = () => {
       <div>
             <Header backLink="/" />
             <p>Kalender</p>
+            <Link to="/tagebuch">
+          <p>Tagebuch</p>
+            </Link>
       </div>
     );
   };

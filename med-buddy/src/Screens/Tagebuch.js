@@ -6,6 +6,11 @@ const Tagebuch = () => {
       <div>
             <Header backLink="/" />
             <p>Tagebuch</p>
+            <form>
+        <label>
+            <input type="text" size="50" placeholder="Hier können Symptome, Nebenwirkungen, Wechselwirkungen, Reaktionen und/oder Auswirkungen dokumentiert werden"/>
+        </label>
+        </form>
       </div>
     );
   };
