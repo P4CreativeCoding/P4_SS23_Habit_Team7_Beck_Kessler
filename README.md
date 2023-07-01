@@ -32,8 +32,9 @@ In der Medikamenten Übersicht sehen Sie alle Medikamente, welche Sie einnehmen 
 
 1. Dieses Repository Klonen
 2. Ein Terminal Fenster starten und in das Repository Verzeichnis navigieren
-3. `npm install` ausführen
-4. `npm start` ausführen. Das Projekt öffnet sich unter **localhost:3000**
+3. In den richtigen Ordner im Terminal navigieren: `cd med-buddy` ausführen
+4. `npm install` ausführen
+5. `npm start` ausführen. Das Projekt öffnet sich unter **localhost:3000**
 
 Abhängigkeiten der Web-App (Links):
 [`create-react-app`](https://www.npmjs.com/package/create-react-app)
