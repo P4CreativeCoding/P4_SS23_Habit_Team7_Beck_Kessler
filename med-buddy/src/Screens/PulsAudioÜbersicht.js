@@ -32,6 +32,9 @@ const PulsAudioÜbersicht = () => {
     return (
       <div>
         <Header backLink="/" />
+        <Link to="/kalender">
+          <p>Zurück zum Kalender</p>
+        </Link>
         <h1>BPM: {bpm}</h1>
       </div>
     );
