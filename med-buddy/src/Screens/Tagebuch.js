@@ -8,10 +8,12 @@ const Tagebuch = () => {
             <p>Tagebuch</p>
             <form>
         <label>
-            <input type="text" size="50" placeholder="Hier können Symptome, Nebenwirkungen, Wechselwirkungen, Reaktionen und/oder Auswirkungen dokumentiert werden"/>
+            <textarea type="text" cols="55" rows= "25" placeholder="Hier können Symptome, Nebenwirkungen, Wechselwirkungen, Reaktionen und/oder Auswirkungen dokumentiert werden"/>
         </label>
-        </form>
-      </div>
+        <input type="reset" value="X" alt="Clear the search form"></input>
+        <button type="button">Speichern</button>
+        </form>      
+        </div>
     );
   };
 export default Tagebuch;
