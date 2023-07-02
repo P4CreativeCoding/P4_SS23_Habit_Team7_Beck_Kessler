@@ -1,61 +1,10 @@
-.medikamentKarte{
-    width: 552px;
-    height: 270px;
-    flex-shrink: 0;
-    border-radius: 22px;
-    background: #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
-    margin-top: 10px;
+.meineMedikamente{
+    width: 100vw;
 }
 
 .plusButton{
-    border: none;
+    border: none; 
     background-color: #FFF;
-    font-size: 30px;
+    font-size: 36px;;
     color: #503291;
-    float: right;
-    margin-right: 20px
-}
-
-.mediName{
-    font-size: 20px;
-    float: left;
-    margin-left: 30px;
-}
-
-.mediArt{
-    font-size: 15px;
-    float: left;
-    margin-left: 30px;
-}
-
-.mediFoto{
-    float: left;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-.uhrzeitText{
-    color: #503291;
-    font-size: 20px;
-    margin-top: 10px;
-    float: left;
-}
-
-.dosierung{
-    font-size: 15px;
-    float: left;
-    margin-left: 30px;
-}
-
-.notiz{
-    color: #503291;
-    font-size: 20px;
-    margin-top: 10px;
-    float: left;
-}
-
-.notizText{
-    font-size: 15px;
-    float: left;
 }

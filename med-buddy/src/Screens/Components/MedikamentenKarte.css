@@ -1,0 +1,64 @@
+.medikamentKarte{
+    width: 552px;
+    height: 280px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: #dddddd;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    margin-top: 10px;
+}
+
+.leftMargin{
+    margin-left: 20px;
+}
+
+.medikamentenInfo{
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.textContainer{
+    text-align: left;
+    margin-top: 5px;
+}
+
+.mediFoto{
+    width: 60px;
+    height: 90px;
+    float: left;
+}
+
+.mediName{
+    font-size: 20px;
+    text-align: left;
+}
+
+.mediArt{
+    font-size: 15px;
+    text-align: left;
+}
+
+.uhrzeitText{
+    color: #503291;
+    font-size: 20px;
+    text-align: left;
+}
+
+.dosierung{
+    margin: 0px;
+    font-size: 10px;
+    text-align: left;
+}
+
+.notiz{
+    color: #503291;
+    font-size: 20px;
+    margin: 0px;
+    text-align: left;
+    margin-top: 7px;
+}
+
+.notizText{
+    font-size: 15px;
+    text-align: left;
+}
