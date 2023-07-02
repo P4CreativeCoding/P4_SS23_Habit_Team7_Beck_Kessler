@@ -1,9 +1,16 @@
 // Hier wird der Puls angezeigt
+/*
+    Kalender oben
+    zurück button
+    Titel
+    Kreis
+    farbiger kreis
+    bpm
 
-/**
- * Hier muss auf jeden fall die verbindung zum ESP8266 stattfinden
- * Über wlan können wir die daten von dem ESP8266 hier aufrufen und visuell anzeigen lassen
- */
+    audio 
+    button
+    button
+*/
 
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
@@ -31,11 +38,18 @@ const PulsAudioÜbersicht = () => {
     
     return (
       <div>
+      <div>
         <Header backLink="/" />
         <Link to="/kalender">
           <p>Zurück zum Kalender</p>
         </Link>
-        <h1>BPM: {bpm}</h1>
+      </div>
+      <div>
+          <h1 className="title"> Puls und Blutdruck</h1> 
+        </div> 
+        <div className="kreisLila">
+        <h1> {bpm} bpm</h1>
+        </div>
       </div>
     );
   };

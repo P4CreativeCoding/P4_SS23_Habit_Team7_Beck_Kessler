@@ -1,0 +1,36 @@
+/*
+    Kalender oben
+    zurück button
+    Titel
+    Kreis
+    farbiger kreis
+    bpm
+
+    audio 
+    button
+    button
+*/
+
+.title{
+    color: #000;
+    text-align: left;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 23px;
+}
+
+.kreisLila{
+    width: 345px;
+    height: 345px;
+    border-radius: 345px;
+    border: 4px solid #503291;
+}
+
+.kreisGrün{
+    width: 339px;
+    height: 339px;
+    border-radius: 339px;
+    border: 4px solid #A5CD50;
+}
