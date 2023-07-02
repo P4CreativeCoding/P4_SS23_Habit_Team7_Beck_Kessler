@@ -1,22 +1,9 @@
-// Hier wird der Puls angezeigt
-/*
-    Kalender oben
-    zurück button
-    Titel
-    Kreis
-    farbiger kreis
-    bpm
-
-    audio 
-    button
-    button
-*/
-
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
 import Header from "../Header";
 import "./PulsAudioÜbersicht.css";
 import audioFile from "../Assets/Ichwillnichtmehr.mp3";
+import {CiPlay1} from "react-icons/ci";
 
 const PulsAudioÜbersicht = () => {
 
@@ -46,6 +33,7 @@ const playAudio = () => {
     return (
       <div>
       <div>
+      <div className="kalenderBox"></div>
         <Header backLink="/" />
         <Link to="/kalender">
           <p>Zurück zum Kalender</p>
@@ -62,8 +50,14 @@ const playAudio = () => {
       </div>
       </div>
       <div className="centerHorizontally">
-        <button onClick={playAudio}>Play Audio</button>
+        <div className="audioClip">
+          <button className="audioButton" onClick={playAudio}>{<CiPlay1 />}  </button>
+        </div>
       </div>
+        <div>
+          <button className="button" onClick={playAudio}> Notiz hinzufügen </button>
+          <button className="button" onClick={playAudio}> Speichern </button>
+        </div>
       </div>
     );
   };
