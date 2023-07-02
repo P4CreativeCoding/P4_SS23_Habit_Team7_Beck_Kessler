@@ -22,15 +22,27 @@
 }
 
 .kreisLila{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 345px;
     height: 345px;
-    border-radius: 345px;
+    border-radius: 50%;
     border: 4px solid #503291;
 }
 
-.kreisGrün{
+.inidikatorKreis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 339px;
     height: 339px;
-    border-radius: 339px;
-    border: 4px solid #A5CD50;
+    border-radius: 50%;
+}
+
+.centerHorizontally{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
