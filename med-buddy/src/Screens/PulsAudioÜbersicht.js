@@ -4,6 +4,7 @@ import Header from "../Header";
 import "./PulsAudioÜbersicht.css";
 import audioFile from "../Assets/Ichwillnichtmehr.mp3";
 import {CiPlay1} from "react-icons/ci";
+import KalenderKarte from "./Components/KalenderKarte.js";
 
 const PulsAudioÜbersicht = () => {
 
@@ -33,11 +34,9 @@ const playAudio = () => {
     return (
       <div>
       <div>
-      <div className="kalenderBox"></div>
+      <KalenderKarte/>
         <Header backLink="/" />
-        <Link to="/kalender">
-          <p>Zurück zum Kalender</p>
-        </Link>
+        <Link to="/kalender"></Link>
       </div>
       <div>
         <h1 className="title"> Puls und Blutdruck</h1> 
@@ -55,8 +54,10 @@ const playAudio = () => {
         </div>
       </div>
         <div>
-          <button className="button" onClick={playAudio}> Notiz hinzufügen </button>
-          <button className="button" onClick={playAudio}> Speichern </button>
+          <Link to="/tagebuch">
+            <button className="button"> Notiz hinzufügen </button>
+          </Link>
+          <button className="button"> Speichern </button>
         </div>
       </div>
     );

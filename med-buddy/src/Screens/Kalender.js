@@ -6,11 +6,15 @@ import "./Kalender.css";
 // Messung anzeigen in Kalender (Täglich passende)
 
 const Kalender = () => {
+    const onDayClicked = (d) => {
+      console.log(d);
+    };
+
     return (
       <div>
             <Header backLink="/" />
             <p>Kalender</p>
-            <Calendar />
+            <Calendar onClickDay={onDayClicked}/>
             <Link to="/pulsAudioÜbersicht">
           <p>Messung</p>
             </Link>
