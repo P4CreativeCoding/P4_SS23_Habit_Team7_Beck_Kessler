@@ -62,7 +62,7 @@ const char* ssid = "SSID";
 const char* password = "Password";
 ```
 
-4. Die editierte `Pulssensor.ino` auf den Mikrocontroller hochladen.
+4. Die editierte `Pulssensor_mitIndikatorLEDs.ino` auf den Mikrocontroller hochladen.
 
 5. Über den Seriellen-Monitor wird die IP-Addresse des Armbandes angezeigt.
 

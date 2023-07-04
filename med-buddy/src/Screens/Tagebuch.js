@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import {BsFillPlusCircleFill} from "react-icons/bs";
 import Header from "../Header";
 import "./Tagebuch.css";
 
@@ -12,8 +12,9 @@ const Tagebuch = () => {
         <label>
             <textarea type="text" cols="55" rows= "25" placeholder="Hier können Symptome, Nebenwirkungen, Wechselwirkungen, Reaktionen und/oder Auswirkungen dokumentiert werden"/>
         </label>
-        <input type="reset" value="X" alt="Clear the search form"></input>
-        <button type="button">Speichern</button>
+        <input  className="XButton" type="reset" value="X" alt="Clear the search form" ></input>
+        
+        <button classname= "button" type="button">Speichern</button>
         </form>      
         </div>
     );

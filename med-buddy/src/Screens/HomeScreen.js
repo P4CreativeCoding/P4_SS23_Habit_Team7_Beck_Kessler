@@ -41,8 +41,7 @@ const HomeScreen = () => {
         <div>
           <h3 className="title"> Mein Tagebuch</h3> 
           <Link to="/tagebuch">
-          <p>Tagebuch</p>
-        </Link>
+          <button classname= "button" type="button">Tagebuch</button></Link>
         </div>
       </div>
     );

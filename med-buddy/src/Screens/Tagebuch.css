@@ -1,11 +1,18 @@
-textarea {
-	caret-color: red;  
-	width: 60em;
-	height: 15em;
-	border: 1px solid #cccccc;
-	padding: 0.5em;
-	font-family: Tahoma, sans-serif;
+.XButton{
+    border: none; 
+    background-color: #FFF;
+    font-size: 36px;;
+    color: #503291;
 }
-textarea:focus {
-      background: #FFC;
+.button{
+    margin-top: 60px;
+    width: 159px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: #503291;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    color: white;
+    float: left;
+    margin-left: 80px;
 }
