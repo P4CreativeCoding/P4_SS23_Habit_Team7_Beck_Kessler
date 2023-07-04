@@ -14,8 +14,8 @@ const PulsAudioÜbersicht = () => {
     useEffect(() => {
         const fetchData = async () => {
         try {
-            // const response = await fetch ('http://192.168.43.23/data');
-            const response = await fetch ('https://p4-team7-server.vercel.app/pushData');
+            const response = await fetch ('http://192.168.43.23/data');
+            // const response = await fetch ('https://p4-team7-server.vercel.app/pushData');
             const data = await response.json();
             // push to srrver 
 
