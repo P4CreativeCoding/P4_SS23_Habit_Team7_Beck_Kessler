@@ -17,7 +17,7 @@ const HomeScreen = () => {
         <div>
           <h3 className="title" > Anstehende Medikamente</h3>
           <Link to="/medikamentenÜbersicht">
-          <p>MedikamentenÜbersicht</p>
+          <button classname= "button">Medikamentenübersicht</button>
         </Link> 
         <MedikamentenKarte 
               foto={medikamentFoto} 
@@ -32,16 +32,19 @@ const HomeScreen = () => {
         <div>
           <h3 className="title"> Meine erfassten Daten</h3> 
           <Link to="/pulsAudioÜbersicht">
-          <p>PulsAudioAnsicht</p>
+          <button classname= "button">Erfasste Messungen</button>
         </Link>
           <Link to="/kalender">
-          <p>Kalender</p>
+          <button classname= "button">Kalender</button>
         </Link>
         </div>
         <div>
           <h3 className="title"> Mein Tagebuch</h3> 
+          <div>
           <Link to="/tagebuch">
-          <button classname= "button" type="button">Tagebuch</button></Link>
+            <button className="button"> Tagebuch </button>
+          </Link>
+        </div>
         </div>
       </div>
     );
