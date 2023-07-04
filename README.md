@@ -40,29 +40,43 @@ Abhängigkeiten der Web-App (Links):
 [`create-react-app`](https://www.npmjs.com/package/create-react-app)
 [`react-router`](https://www.npmjs.com/package/react-router)
 [`react-icons`](https://www.npmjs.com/package/react-icons)
+[`react-calender`](https://www.npmjs.com/package/react-calendar)
 
 ###### Hardware / interaktives Tagebuch/ Armband (ESP8266)
 
-1. Mikrocontroller per USB an den Computer anschließen
+Interaktives Tagebuch
+
+1. LCD 7 Display-C an den Raspberry Pi 3 per HDMI und USB anschließen
+2. Eine externe Stromquelle an den Raspberry Pi anschließen
+3. Sobald alles richtig verkabelt ist, ist nachdem Hochfahren unsere React Applikation zu sehen
+4. Nun kann man die App nutzen
+
+Armband
+
+1. ESP per USB an den Computer anschließen
 2. Die Datei `Puls.ino` über die [Arduino-IDE](https://www.arduino.cc/en/software) öfnnen.
 3. Im Code müssen die WLAN-Anmeldedaten editiert werden.
-4. (...)
 
 ```
 const char* ssid = "SSID";
 const char* password = "Password";
 ```
 
-4. Die editierte `Puls.ino` auf den Mikrocontroller hochladen.
+4. Die editierte `Pulssensor.ino` auf den Mikrocontroller hochladen.
 
 5. Über den Seriellen-Monitor wird die IP-Addresse des Armbandes angezeigt.
+
+6. Nun kann man den Pulssensor in die Hand nehmen um die Herzfrequenz zu messen
+
+7. Diese wird in BPM im interaktiven Tagebuch im dafür gestalteten Screen angezeigt
+(Die Datenübertragung für die Messwerte des Pulses funktioniert leider nur Lokal und nicht über Vercel. Das heißt auf dem Display werden die Werte nicht angezeigt, sondern nur lokal am PC/Laptop etc.).
 
 Abhängigkeiten der Hardware (Links):
 [`esp8266 Board Manager`](http://arduino.esp8266.com/stable/package_esp8266com_index.json)
 
 #### Link
 
-[Zur App]
+[Zur App]: https://p4-ss-23-habit-team7-beck-kessler.vercel.app/
 
 ```
 Habit

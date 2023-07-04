@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Header from "../Header";
 import "./Tagebuch.css";
 
-//Button Speichert, Karlender oben, Alles stylen
+//Stylen
 const Tagebuch = () => {
     return (
       <div>
