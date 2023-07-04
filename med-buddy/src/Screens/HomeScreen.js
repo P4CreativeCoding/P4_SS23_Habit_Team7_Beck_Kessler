@@ -16,9 +16,11 @@ const HomeScreen = () => {
         </div>
         <div>
           <h3 className="title" > Anstehende Medikamente</h3>
+          <div>
           <Link to="/medikamentenÜbersicht">
-          <button classname= "button">Medikamentenübersicht</button>
-        </Link> 
+            <button className="buttonsss"> Medikamenten-Übersicht </button>
+          </Link>
+        </div> 
         <MedikamentenKarte 
               foto={medikamentFoto} 
               name="Captopres 20mg" 
@@ -31,18 +33,24 @@ const HomeScreen = () => {
         </div>
         <div>
           <h3 className="title"> Meine erfassten Daten</h3> 
+          <div>
           <Link to="/pulsAudioÜbersicht">
-          <button classname= "button">Erfasste Messungen</button>
-        </Link>
-          <Link to="/kalender">
-          <button classname= "button">Kalender</button>
-        </Link>
+            <button className="buttonss"> Erfasste Messungen </button>
+          </Link>
+        </div>
         </div>
         <div>
-          <h3 className="title"> Mein Tagebuch</h3> 
+          <Link to="/kalender">
+            <button className="buttonss"> Kalender </button>
+          </Link>
+        </div>
+        <div>
+          <br/>
+          <br/>
+          <h3 className="title2"> Mein Tagebuch</h3> 
           <div>
           <Link to="/tagebuch">
-            <button className="button"> Tagebuch </button>
+            <button className="buttons"> Tagebuch </button>
           </Link>
         </div>
         </div>
