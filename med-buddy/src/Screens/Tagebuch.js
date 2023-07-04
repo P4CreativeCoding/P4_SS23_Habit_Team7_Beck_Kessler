@@ -17,7 +17,7 @@ const Tagebuch = () => {
           <button className="xButton" type="reset" value="X" alt="Clear the search form" style={{margin: "5px", marginRight: "50px", float: "right"}}>{<BsFillXCircleFill />}  </button>
         </div>
         <div>
-            <button className="button"> Speichern </button>
+            <button className="speicherButton"> Speichern </button>
         </div>
         </form>      
         </div>
