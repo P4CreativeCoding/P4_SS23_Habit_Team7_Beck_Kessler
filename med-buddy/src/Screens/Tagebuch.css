@@ -1,9 +1,12 @@
-.XButton{
+.xButton{
     border: none; 
     background-color: #FFF;
     font-size: 36px;;
     color: #503291;
-	margin-left: 500px;
+	margin-left: 50px;
+	width: 130vw;
+	height: 0vw;
+	margin-top: 0px;
 }
 .button{
     margin-top: 20px;

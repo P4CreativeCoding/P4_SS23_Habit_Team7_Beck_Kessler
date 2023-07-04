@@ -9,7 +9,7 @@ const Header = ({ backLink, noProfile, noBacklink }) => {
       ) : (
         <div>
         <Link to={backLink}>
-          <HiOutlineArrowLeft />
+          <HiOutlineArrowLeft /> Zurück
         </Link>
         </div>
       )}
