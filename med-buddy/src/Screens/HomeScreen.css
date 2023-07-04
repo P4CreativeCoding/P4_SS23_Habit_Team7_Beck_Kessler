@@ -36,7 +36,8 @@
     border: 1px solid #FFF;
     background: lightgray 50% / cover no-repeat;
     float: left;
-    
+    margin-left: 35px;
+    margin-top: 10px;
 }
 
 .plus-icon{
@@ -105,4 +106,9 @@
     color: white;
     float: right;
     margin-right: 90px;
+}
+.foto{
+    width: 500px;
+    height: 150px;
+    margin-right: 70px;
 }

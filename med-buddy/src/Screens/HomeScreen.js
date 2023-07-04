@@ -3,17 +3,15 @@ import "./HomeScreen.css";
 import MedikamentenKarte from "./Components/MedikamentenKarte";
 import medikamentFoto from "../Assets/Medikament.png";
 import KalenderKarte from "./Components/KalenderKarte.js";
+import profilbild from "../Assets/Profil.png";
 
-//Stylen
 
 const HomeScreen = () => {
     return (
       <div>
         <KalenderKarte/>
-        <h2 className="title"> Alles auf einem Blick</h2>   
-        <div className="personen-box">
-          <img className="personen-foto" src="../Emily.jpg"></img>
-        </div>
+        <h2 className="title"> Alles auf einem Blick</h2> 
+        <img className= "foto" src={profilbild}></img>  
         <div>
           <h3 className="title" > Anstehende Medikamente</h3>
           <div>
