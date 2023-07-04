@@ -1,4 +1,3 @@
-import {BsFillPlusCircleFill} from "react-icons/bs";
 import Header from "../Header";
 import "./Tagebuch.css";
 import KalenderKarte from "./Components/KalenderKarte.js";
