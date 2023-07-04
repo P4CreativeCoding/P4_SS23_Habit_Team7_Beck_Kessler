@@ -74,9 +74,7 @@ const char* password = "Password";
 Abhängigkeiten der Hardware (Links):
 [`esp8266 Board Manager`](http://arduino.esp8266.com/stable/package_esp8266com_index.json)
 
-#### Link
-
-[Zur App]: https://p4-ss-23-habit-team7-beck-kessler.vercel.app/
+#### Link Zur App: https://p4-ss-23-habit-team7-beck-kessler.vercel.app/
 
 ```
 Habit
