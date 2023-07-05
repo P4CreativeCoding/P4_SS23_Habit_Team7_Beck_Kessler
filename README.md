@@ -71,6 +71,13 @@ const char* password = "Password";
 7. Diese wird in BPM im interaktiven Tagebuch im dafür gestalteten Screen angezeigt
 (Die Datenübertragung für die Messwerte des Pulses funktioniert leider nur Lokal und nicht über Vercel. Das heißt auf dem Display werden die Werte nicht angezeigt, sondern nur lokal am PC/Laptop etc.).
 
+Mikrofon
+
+1. Auf dem Breadboard dem verkabelte Mikrofon Setup den ESP hinzufügen
+2. ESP per USB an den Laptop/PC anschließen
+3. Die Datei `AudioAufnahme.ino` auf den Mikrocontroller hochladen.
+4. Bei Geräuschen signalisiert das Soundmodul eine Erkennung
+
 Abhängigkeiten der Hardware (Links):
 [`esp8266 Board Manager`](http://arduino.esp8266.com/stable/package_esp8266com_index.json)
 
