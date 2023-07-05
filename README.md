@@ -57,20 +57,21 @@ Armband
 
 1. ESP per USB an den Computer anschließen
 2. Die Datei `Puls.ino` über die [Arduino-IDE](https://www.arduino.cc/en/software) öfnnen.
-3. Im Code der WebApp müssen die WLAN-Anmeldedaten editiert werden. Die IP-Adresse vom ESP muss angegeben werden.
+3. In diesem Code müssen die WLAN-Anmeldedaten editiert werden.
 
 ```
 const char* ssid = "SSID";
 const char* password = "Password";
 ```
+4.  Die IP-Adresse vom ESP muss im Code der WebApp angegeben werden.
 
-4. Die editierte `Pulssensor_mitIndikatorLEDs.ino` auf den Mikrocontroller hochladen.
+5. Die editierte `Pulssensor_mitIndikatorLEDs.ino` auf den Mikrocontroller hochladen.
 
-5. Über den Seriellen-Monitor wird die IP-Addresse des Armbandes angezeigt.
+6. Über den Seriellen-Monitor wird die IP-Addresse des Armbandes angezeigt.
 
-6. Nun kann man den Pulssensor in die Hand nehmen um die Herzfrequenz zu messen
+7. Nun kann man den Pulssensor in die Hand nehmen um die Herzfrequenz zu messen
 
-7. Diese wird in BPM im interaktiven Tagebuch im dafür gestalteten Screen angezeigt
+8. Diese wird in BPM im interaktiven Tagebuch im dafür gestalteten Screen angezeigt
 (Die Datenübertragung für die Messwerte des Pulses funktioniert leider nur Lokal und nicht über Vercel. Das heißt auf dem Display werden die Werte nicht angezeigt, sondern nur lokal am PC/Laptop etc.).
 
 Mikrofon
