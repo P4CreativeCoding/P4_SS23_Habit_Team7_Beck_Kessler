@@ -51,6 +51,8 @@ Interaktives Tagebuch
 3. Sobald alles richtig verkabelt ist, ist nachdem Hochfahren unsere React Applikation zu sehen
 4. Nun kann man die App nutzen
 
+ZUSÄTZLICH: Es wird eine Tastatur benötigt, welche per USB in den Raspberry Pi gesteckt wird, um diesen nach der Nutzung wieder herunterfahren zu können. Im Dropdown Menu unter "Shutdown" fährt man den Pi herunter. Mit einer Windows Tastatur erreicht man dieses Menu mit der Windowstaste. Die Anwendung wird im Kiosk Modus gestartet und bildet die Applikation fullscreen im Browser ab. Die Anwendung läuft auf Vercel. 
+
 Armband
 
 1. ESP per USB an den Computer anschließen
