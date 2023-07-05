@@ -57,7 +57,7 @@ Armband
 
 1. ESP per USB an den Computer anschließen
 2. Die Datei `Puls.ino` über die [Arduino-IDE](https://www.arduino.cc/en/software) öfnnen.
-3. Im Code müssen die WLAN-Anmeldedaten editiert werden.
+3. Im Code der WebApp müssen die WLAN-Anmeldedaten editiert werden. Die IP-Adresse vom ESP muss angegeben werden.
 
 ```
 const char* ssid = "SSID";
